@@ -68,7 +68,6 @@ class plot():
             )
         except AssertionError as e:
             sys.stderr.write(str(e))
-            sys.exit(1)
         self.qualified = qualified
         try:
             assert vbuf > 0 and hbuf > 0,\
